@@ -1,4 +1,5 @@
 .button-answer {
-  margin: 20px 0 0 0;
+  margin: 2rem 0 0 0;
   padding: 0.8rem 2.2rem 0.8rem 2.2rem;
+  border-radius: 10rem;
 }
