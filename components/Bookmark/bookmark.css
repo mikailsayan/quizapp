@@ -1,4 +1,8 @@
-.quiz-card {
+.all-bookmarks {
+  min-width: 600px;
+}
+
+.bookmark {
   position: relative;
   background-color: #8ae6ff;
   border: 0.3rem solid black;
@@ -10,8 +14,4 @@
   min-width: 60rem;
   margin: 3rem 3rem 0 3rem;
   padding: 1rem 1.5rem 2rem 1.5rem;
-}
-
-.quiz-allcards {
-  min-width: 600px;
 }

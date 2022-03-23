@@ -2,6 +2,8 @@
 @import "./components/Headline/headline.css";
 @import "./components/Button/button.css";
 @import "./components/Formular/form.css";
+@import "./components/Icon/icon.css";
+@import "./components/Bookmark/bookmark.css";
 
 :root {
   --font: oxygen;
@@ -16,14 +18,12 @@
 
 html {
   font-size: 62.5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 body {
   font-family: var(--font);
   width: 100%;
+  position: relative;
 }
 
 p {
@@ -40,25 +40,20 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 10;
 }
 
 .quiz-main {
   background-color: #e1feff;
+  border: 0.3rem solid #1681ae;
+  min-height: calc(100vh - 7rem - 5.2rem);
+  /*Höhe passt sich body an bis nach unten*/
+  margin: 5.2rem 0 7rem 0;
   padding-top: 2rem;
   padding-bottom: 10rem;
-  margin: 5.2rem 0 7rem 0;
-  border: 0.3rem solid #1681ae;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.quiz-allcards {
-  max-width: 600px;
-}
-
-.quiz-bookmark {
 }
 
 .quiz-footer {
@@ -77,8 +72,4 @@ p {
   width: 25%;
   text-align: center;
   margin: 0;
-}
-
-.rule {
-  border-color: black;
 }
