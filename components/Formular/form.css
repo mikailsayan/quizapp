@@ -1,16 +1,22 @@
 form {
   display: flex;
-  flex-direction: column;
+  _flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
+  max-width: 60rem;
+  width: 60rem;
   margin: 2rem 0 0 0;
+  gap: 2rem;
 }
 
 label {
   margin: 1rem 0 1.5rem 0;
+  width: 15rem;
 }
 
 textarea {
   border-radius: 1rem;
+  width: 43rem;
 }
 
 label {
