@@ -1,10 +1,10 @@
-export default function QuizcardFunctions() {
+export default function QuizcardFunctions(jsAllBookmarks) {
 
 const jbookmark = document.querySelector(".js-bookmark");
+const jbookmarkfill = document.querySelector(".js-bookmark-fill");
 const jsbuttonanswer = document.querySelector(".js-button-hide");
 const jsanswer = document.querySelector(".js-answer");
 const jsbuttonhide = document.querySelector(".js-button-answer");
-const jbookmarkfill = document.querySelector("js-bookmark-fill");
 
 function marking() {
     jbookmark.classList.toggle("hidden");
@@ -25,8 +25,8 @@ function hidebuttonhide() {
     jsbuttonhide.classList.add("hidden");
 }
 
-jbookmark.addEventListener("click", marking);
-jbookmarkfill.addEventListener("click", marking);
+jsAllBookmarks.addEventListener("click", marking);
+//jsAllBookmarks.addEventListener("click", marking);
 jsbuttonanswer.addEventListener("click", hideanswer);
 jsbuttonhide.addEventListener("click", hideanswer);
 jsbuttonanswer.addEventListener("click", hidebuttonanswer);
