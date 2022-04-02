@@ -4,6 +4,9 @@
 @import "./components/Formular/form.css";
 @import "./components/Icon/icon.css";
 @import "./components/Bookmark/bookmark.css";
+@import "./utility.css";
+@import "./components/List/list.css";
+@import "./components/Paragraph/paragraph.css";
 
 :root {
   --font: oxygen;

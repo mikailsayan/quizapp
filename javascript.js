@@ -1,10 +1,10 @@
 import QuizcardFunctions from "./components/Quizcard/quizcard.js";
 //Wir importieren den Export aus quizcard.js hier her und geben einen Namen
 
-//QuizcardFunctions();
+QuizcardFunctions();
 
-const jsAllBookmarks = document.querySelectorAll('[data-js="baklava"]');
-//Wir holen uns alle(!) Bookmark Icons mit der Klasse/Data-JS
+const jsAllBookmarks = document.querySelectorAll(".bookmark-icon");
+//Wir holen uns alle(!) Bookmark Icons mit der Klasse
 
 jsAllBookmarks.forEach((bookmarkIcon) => {
     QuizcardFunctions(bookmarkIcon);
