@@ -1,12 +1,14 @@
 import BookmarkMarking from "./components/Bookmark/bookmark.js";
 import QuizcardButtonFunction from "./components/Quizcard/quizcard.js";
 
+//Mark Bookmark Funktion
 const jsAllBookmarks = document.querySelectorAll(".bookmark-icon");
 
 jsAllBookmarks.forEach((jbookmark) => {
     BookmarkMarking(jbookmark);
 }); 
 
+//ShowAnswerButton Funktion
 const jsAllCards = document.querySelectorAll(".quiz-card");
 
 
