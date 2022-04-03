@@ -1,17 +1,22 @@
-import QuizcardFunctions from "./components/Quizcard/quizcard.js";
-//Wir importieren den Export aus quizcard.js hier her und geben einen Namen
+import BookmarkMarking from "./components/Bookmark/bookmark.js";
+import QuizcardButtonFunction from "./components/Quizcard/quizcard.js";
 
-//QuizcardFunctions();
+const jsAllBookmarks = document.querySelectorAll(".bookmark-icon");
 
-//Wir holen uns alle(!) Bookmark Icons mit der Klasse
-//const jsAllBookmarks = document.querySelectorAll(".quiz-card");
+jsAllBookmarks.forEach((jbookmark) => {
+    BookmarkMarking(jbookmark);
+}); 
 
-//jsAllBookmarks.forEach((bookmarkIcon) => {
-//    QuizcardFunctions(bookmarkIcon);
-//}); 
+const jsAllCards = document.querySelectorAll(".quiz-card");
+
+
+jsAllCards.forEach((jsshowanswer) => {
+    QuizcardButtonFunction(jsshowanswer);
+});
+
+
 
 //SinglePageFunction
-
 const jsmainpage = document.querySelector(".main-page");
 const jsbookmarkpage = document.querySelector(".bookmark-page");
 const jscreatepage = document.querySelector(".create-page");
