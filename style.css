@@ -7,6 +7,7 @@
 @import "./utility.css";
 @import "./components/List/list.css";
 @import "./components/Paragraph/paragraph.css";
+@import "./components/Profile/profile.css";
 
 :root {
   --font: oxygen;

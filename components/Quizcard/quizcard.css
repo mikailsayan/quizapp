@@ -14,3 +14,9 @@
 .quiz-allcards {
   min-width: 600px;
 }
+
+@media (max-width: 900px) {
+  .quiz-allcards {
+    min-width: 400px;
+  }
+}

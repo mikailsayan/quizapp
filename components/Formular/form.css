@@ -1,10 +1,9 @@
-form {
+.create-form {
   display: flex;
   _flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
   max-width: 60rem;
-  width: 60rem;
   margin: 2rem 0 0 0;
   gap: 2rem;
 }
@@ -12,13 +11,10 @@ form {
 label {
   margin: 1rem 0 1.5rem 0;
   width: 15rem;
+  font-size: 1.8rem;
 }
 
 textarea {
   border-radius: 1rem;
   width: 43rem;
-}
-
-label {
-  font-size: 1.8rem;
 }

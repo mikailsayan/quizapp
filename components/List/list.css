@@ -11,3 +11,14 @@
   display: flex;
   gap: 40px;
 }
+
+@media (max-width: 900px) {
+  .answer-option {
+    font-size: 13px;
+    padding: 4px 8px 4px 8px;
+  }
+
+  .answer-list {
+    gap: 20px;
+  }
+}

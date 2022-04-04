@@ -1,0 +1,26 @@
+.profile-pic {
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+}
+
+.profile-box {
+  border: 0.2rem solid black;
+  padding: 2rem;
+  margin-top: 5rem;
+  display: flex;
+  gap: 10rem;
+  align-items: center;
+  width: 50rem;
+}
+
+.profile-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-box {
+  width: 50rem;
+  margin-top: 5rem;
+}

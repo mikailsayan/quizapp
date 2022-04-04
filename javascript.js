@@ -2,7 +2,8 @@ import BookmarkMarking from "./components/Bookmark/bookmark.js";
 import QuizcardButtonFunction from "./components/Quizcard/quizcard.js";
 
 //Mark Bookmark Funktion
-const jsAllBookmarks = document.querySelectorAll(".bookmark-icon");
+const jsAllBookmarks = document.querySelectorAll(".js-bookmark");
+
 
 jsAllBookmarks.forEach((jbookmark) => {
     BookmarkMarking(jbookmark);
@@ -60,3 +61,5 @@ jsbuttonmain.addEventListener("click", showMainPage);
 jsbuttonbookmark.addEventListener("click", showBookmarkPage);
 jsbuttoncreate.addEventListener("click", showCreatePage);
 jsbuttonprofile.addEventListener("click", showProfilePage);
+
+console.log(jsAllBookmarks);
