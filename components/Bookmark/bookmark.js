@@ -1,9 +1,7 @@
 export default function BookmarkMarking(jbookmark) {
+  function marking() {
+    jbookmark.classList.toggle('marked');
+  }
 
-    function marking() {
-        jbookmark.classList.toggle("marked");
-    }
-    
-    jbookmark.addEventListener("click", marking);
-   
+  jbookmark.addEventListener('click', marking);
 }

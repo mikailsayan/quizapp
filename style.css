@@ -1,13 +1,13 @@
-@import "./components/Quizcard/quizcard.css";
-@import "./components/Headline/headline.css";
-@import "./components/Button/button.css";
-@import "./components/Formular/form.css";
-@import "./components/Icon/icon.css";
-@import "./components/Bookmark/bookmark.css";
-@import "./utility.css";
-@import "./components/List/list.css";
-@import "./components/Paragraph/paragraph.css";
-@import "./components/Profile/profile.css";
+@import './components/Quizcard/quizcard.css';
+@import './components/Headline/headline.css';
+@import './components/Button/button.css';
+@import './components/Formular/form.css';
+@import './components/Icon/icon.css';
+@import './components/Bookmark/bookmark.css';
+@import './utility.css';
+@import './components/List/list.css';
+@import './components/Paragraph/paragraph.css';
+@import './components/Profile/profile.css';
 
 :root {
   --font: oxygen;
@@ -51,7 +51,7 @@ p {
   background-color: #e1feff;
   border: 0.3rem solid #1681ae;
   min-height: calc(100vh - 7rem - 5.2rem);
-  /*Höhe passt sich body an bis nach unten*/
+  /* Höhe passt sich body an bis nach unten */
   margin: 5.2rem 0 7rem 0;
   padding-top: 2rem;
   padding-bottom: 10rem;
