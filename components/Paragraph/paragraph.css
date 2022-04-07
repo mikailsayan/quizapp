@@ -2,3 +2,12 @@
   font-size: 18px;
   font-weight: bold;
 }
+
+.js-answer {
+  font-size: 15px;
+  margin-top: 25px;
+  padding: 6px 10px 6px 10px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: #ffa38a;
+}
